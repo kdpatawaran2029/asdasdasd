@@ -8,19 +8,19 @@
 </head>
 <body>
 
-<nav class="navbar">
-  <div class="nav-container">
-    <div class="logo">Aurevienne</div>
-    <div class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="disney.html">Disney</a>
-      <a href="bridgerton.html">Bridgerton</a>
-      <a href="mythology.html">Mythology</a>
-      <a href="gothic.html">Gothic</a>
-      <a href="about.html">About</a>
-    </div>
-    <button class="cart-btn">Bag (0)</button>
+<nav>
+  <div class="logo">Aurevienne</div>
+  <div class="nav-links">
+    <a href="index.html" class="active">Home</a>
+    <a href="disney.html">Disney</a>
+    <a href="bridgerton.html">Bridgerton</a>
+    <a href="mythology.html">Mythology</a>
+    <a href="gothic.html">Gothic</a>
+    <a href="about.html">About</a>
   </div>
+  <button class="cart-btn" onclick="openCart()">
+    Bag (<span id="cart-count">0</span>)
+  </button>
 </nav>
   <button class="cart-btn" onclick="openCart()">
     Bag (<span id="cart-count">0</span>)
